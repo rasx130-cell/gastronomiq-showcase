@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="kk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GastronomIQ мектептегі тамақтануды кестемен ұйымдастырады. Қазақша бейне, алты рөл және нақты интерфейс экрандары.">
+  <meta name="theme-color" content="#f8f7f3">
+  <title>GastronomIQ — мектеп асы кестемен</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="site.css">
+  <script defer src="site.js"></script>
+</head>
+<body id="top">
+  <a class="skip" href="#main">Мазмұнға өту</a>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="#top"><img src="assets/mark.svg" alt="" width="36" height="36">GastronomIQ</a>
+      <nav aria-label="Сайт бөлімдері">
+        <a href="#film">Бейне</a><a href="#app">Қолданба</a><a href="#roles">Рөлдер</a><a href="#screens">Экрандар</a><a href="#bots">Боттар</a>
+      </nav>
+      <a class="nav-cta" href="#film">Шолуды көру <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> Мектептегі тамақтану / Жоба таныстырылымы</p>
+        <h1 id="hero-title">Үзіліске<br><em>дайын ас.</em></h1>
+        <p class="intro">Отбасы тағам таңдайды, мектеп сыныптың өтінімдерін жинайды, асхана үзіліске ас дайындайды. GastronomIQ осы жұмысты бір жүйеге біріктіреді.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#film"><span aria-hidden="true">▶</span> Бейнені көру</a>
+          <a class="button ghost" href="#roles">Рөлдермен танысу <span aria-hidden="true">↓</span></a>
+        </div>
+        <p class="hero-platforms"><span>iOS</span><span>Android</span><span>Веб</span><span>Telegram</span></p>
+      </div>
+      <figure class="hero-art">
+        <span class="art-code">GIQ / 01</span>
+        <div class="phone"><img src="assets/ios-menu.webp" alt="iPhone-дағы GastronomIQ мәзірі, тағам бағасы мен үзіліс уақыты" width="667" height="1450" fetchpriority="high"></div>
+        <div class="art-note"><span class="note-icon" aria-hidden="true">◷</span><div><strong>Сынып үзілісі</strong><small>09:00–09:20 · мысал</small></div></div>
+        <figcaption>iOS интерфейсі · сынақ деректері</figcaption>
+      </figure>
+    </section>
+    <section id="film" class="film-section">
+      <div class="wrap">
+        <div class="section-head">
+          <div><p class="eyebrow">01 / Бейнешолу</p><h2>Мәзірден үзіліске дейін</h2></div>
+          <p>Жобаның веб-интерфейсінен түсірілген бейне. Алты рөлдің батырмаларды басып, өтінім мен төлем мәртебесін қалай өзгертетінін көріңіз.</p>
+        </div>
+        <figure class="film-frame">
+          <video id="promo" controls playsinline preload="none" width="1280" height="720" poster="assets/promo-poster-kz.webp" aria-label="GastronomIQ жобасының қазақша бейнешолуы">
+            <source src="assets/gastronomiq-live-demo-kz.mp4" type="video/mp4">
+            <track kind="subtitles" label="Қазақша қадамдар" srclang="kk" src="assets/promo-kk.vtt">
+            <a href="assets/gastronomiq-live-demo-kz.mp4">Бейнені MP4 ретінде жүктеу</a>
+          </video>
+          <figcaption><span><span class="dot"></span> Экран жазбасы · Қазақша дыбыс пен титрлер</span><a href="assets/gastronomiq-live-demo-kz.mp4" download>MP4 жүктеу ↓</a></figcaption>
+        </figure>
+        <nav id="film-chapters" class="film-chapters" aria-label="Бейненің бөлімдері" hidden></nav>
+      </div>
+    </section>
+    <section id="app" class="app-section wrap" aria-labelledby="app-title">
+      <div class="section-head">
+        <div><p class="eyebrow">02 / Мобильді қолданба</p><h2 id="app-title">Өтінімді телефоннан беру</h2></div>
+        <p>Android қолданбасында ата-ана мәзірді ашады, тағам таңдайды және сақталған өтінімді тексереді.</p>
+      </div>
+      <figure class="film-frame">
+        <video id="app-promo" controls playsinline preload="none" width="1280" height="720" poster="assets/app-promo-poster.webp" aria-label="GastronomIQ Android қолданбасының бейнешолуы">
+          <source src="assets/gastronomiq-android-demo-kz.mp4" type="video/mp4">
+          <a href="assets/gastronomiq-android-demo-kz.mp4">Қолданба бейнесін жүктеу</a>
+        </video>
+        <figcaption><span><span class="dot"></span> Android экран жазбасы · Қазақша титрлер</span><a href="assets/gastronomiq-android-demo-kz.mp4" download>MP4 жүктеу ↓</a></figcaption>
+      </figure>
+    </section>
+    <section id="bots" class="bot-section" aria-labelledby="bot-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div><p class="eyebrow">03 / Мессенджерлер</p><h2 id="bot-title">GastronomIQ боттары</h2></div>
+          <p>Мектеп аккаунтын мессенджермен байланыстыру үшін жеке кабинеттегі «Байланыс арналары» бөлімін ашыңыз.</p>
+        </div>
+        <div class="bot-grid">
+          <article class="bot-card">
+            <h3>Telegram</h3>
+            <p>@Gastromiqqbot</p>
+            <a class="button primary" href="https://t.me/Gastromiqqbot" target="_blank" rel="noopener noreferrer">Telegram ботын ашу <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="bot-card">
+            <h3>WhatsApp</h3>
+            <p>Автоматты жауап үшін ботты қайта қосу қажет.</p>
+            <a class="button ghost" href="https://wa.me/77781964727" target="_blank" rel="noopener noreferrer">WhatsApp чатын ашу <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="roles" class="roles-section wrap">
+      <div class="section-head">
+        <div><p class="eyebrow">04 / Рөлдер мен әрекеттер</p><h2>Әркімнің өз міндеті бар</h2></div>
+        <p>Рөлді таңдап, оның экранын және негізгі әрекеттерін қараңыз.</p>
+      </div>
+      <div class="role-tabs" aria-label="Рөлді таңдау" hidden><button type="button" id="tab-student" aria-controls="role-student">Оқушы</button>
+<button type="button" id="tab-parent" aria-controls="role-parent">Ата-ана</button>
+<button type="button" id="tab-teacher" aria-controls="role-teacher">Мұғалім</button>
+<button type="button" id="tab-finance" aria-controls="role-finance">Есепші</button>
+<button type="button" id="tab-canteen" aria-controls="role-canteen">Асхана</button>
+<button type="button" id="tab-admin" aria-controls="role-admin">Әкімші</button></div>
+      
+      <article class="role-panel" id="role-student" aria-labelledby="student-title">
+        <div class="role-copy">
+          <p class="eyebrow">01 / Оқушы</p>
+          <h3 id="student-title">Мәзір мен өтінім</h3>
+          <p>Оқушы тағамды таңдап, сыныбы қай үзілісте тамақтанатынын біледі.</p>
+          <ol><li>Ас мәзірін ашу</li><li>Бағасын, құрамын және аллергендерін қарау</li><li>Өтінім мәртебесін тексеру</li></ol>
+          <a class="chapter-link" href="#film" data-chapter="student">Бейнеден көру <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="role-media mobile">
+          <a class="shot" href="assets/student-menu.webp" data-shot="Оқушының мәзір экраны">
+            <img loading="lazy" src="assets/student-menu.webp" alt="Оқушының мәзір экраны" width="430" height="960" decoding="async">
+            <span>Экранды үлкейту ↗</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="role-panel" id="role-parent" aria-labelledby="parent-title">
+        <div class="role-copy">
+          <p class="eyebrow">02 / Ата-ана</p>
+          <h3 id="parent-title">Балаға ас таңдау</h3>
+          <p>Ата-ана оқушыны және тамақтану күнін таңдайды. Қосымша үзіліс пен өтінім қабылдау мерзімін көрсетеді.</p>
+          <ol><li>Күнді таңдап, порцияны себетке қосу</li><li>Оқушыны және үзіліс уақытын тексеру</li><li>Өтінімді жіберіп, мәртебесін көру</li></ol>
+          <a class="chapter-link" href="#film" data-chapter="parent">Бейнеден көру <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="role-media mobile">
+          <a class="shot" href="assets/ios-checkout.webp" data-shot="iPhone арқылы өтінім беру">
+            <img loading="lazy" src="assets/ios-checkout.webp" alt="iPhone арқылы өтінім беру" width="667" height="1450" decoding="async">
+            <span>Экранды үлкейту ↗</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="role-panel" id="role-teacher" aria-labelledby="teacher-title">
+        <div class="role-copy">
+          <p class="eyebrow">03 / Мұғалім</p>
+          <h3 id="teacher-title">Сыныпты асханаға дайындау</h3>
+          <p>Мұғалім сыныптың қатысуын, төлемін және келісім мәртебесін бір кестеден қарайды.</p>
+          <ol><li>Күнді және сыныпты таңдау</li><li>Қатысатын оқушылар тізімін тексеру</li><li>Тізім мен төлем расталғанда сыныпты асханаға беру</li></ol>
+          <a class="chapter-link" href="#film" data-chapter="teacher">Бейнеден көру <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="role-media wide">
+          <a class="shot" href="assets/teacher-roster.webp" data-shot="Мұғалімнің сынып тізімі">
+            <img loading="lazy" src="assets/teacher-roster.webp" alt="Мұғалімнің сынып тізімі" width="1365" height="920" decoding="async">
+            <span>Экранды үлкейту ↗</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="role-panel" id="role-finance" aria-labelledby="finance-title">
+        <div class="role-copy">
+          <p class="eyebrow">04 / Есепші</p>
+          <h3 id="finance-title">Төлемді өтініммен салыстыру</h3>
+          <p>Есепші асханаға түскен төлемді тиісті өтініммен салыстырып, расталған соманы белгілейді.</p>
+          <ol><li>Төлемді салыстыру бөлімін ашу</li><li>Сома мен құжат дерегін тексеру</li><li>Төлемді растау</li></ol>
+          <a class="chapter-link" href="#film" data-chapter="finance">Бейнеден көру <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="role-media wide">
+          <a class="shot" href="assets/finance-receipt.webp" data-shot="Асхана есепшісінің төлемді салыстыру экраны">
+            <img loading="lazy" src="assets/finance-receipt.webp" alt="Асхана есепшісінің төлемді салыстыру экраны" width="1365" height="920" decoding="async">
+            <span>Экранды үлкейту ↗</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="role-panel" id="role-canteen" aria-labelledby="canteen-title">
+        <div class="role-copy">
+          <p class="eyebrow">05 / Асхана</p>
+          <h3 id="canteen-title">Үзіліске ас дайындау</h3>
+          <p>Асхана мәзірді жариялайды және әр сыныпқа қанша порция керегін жоспардан көреді.</p>
+          <ol><li>Тағамды, бағасын және құрамын қосу</li><li>Сыныптар жоспарын ашу</li><li>Дайындау мен үзілістің аяқталуын белгілеу</li></ol>
+          <a class="chapter-link" href="#film" data-chapter="canteen">Бейнеден көру <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="role-media wide">
+          <a class="shot" href="assets/canteen-plan.webp" data-shot="Асхананың сыныптар жоспары">
+            <img loading="lazy" src="assets/canteen-plan.webp" alt="Асхананың сыныптар жоспары" width="1365" height="920" decoding="async">
+            <span>Экранды үлкейту ↗</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="role-panel" id="role-admin" aria-labelledby="admin-title">
+        <div class="role-copy">
+          <p class="eyebrow">06 / Әкімші</p>
+          <h3 id="admin-title">Мектептің жұмысын баптау</h3>
+          <p>Әкімші тізілімді жүргізеді, рөлдерді тағайындайды және сыныптардың үзіліс кестесін баптайды.</p>
+          <ol><li>Пайдаланушы қосу немесе Excel тізілімін жүктеу</li><li>Сыныптарды топтап, үзілістерді белгілеу</li><li>Тексерілген өкілді оқушыға байланыстыру</li></ol>
+          <a class="chapter-link" href="#film" data-chapter="admin">Бейнеден көру <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="role-media wide">
+          <a class="shot" href="assets/admin-schedule.webp" data-shot="Мектеп әкімшісінің үзілістерді баптау экраны">
+            <img loading="lazy" src="assets/admin-schedule.webp" alt="Мектеп әкімшісінің үзілістерді баптау экраны" width="1365" height="920" decoding="async">
+            <span>Экранды үлкейту ↗</span>
+          </a>
+        </div>
+      </article>
+      <p class="demo-note">Экрандар сынақ деректерімен түсірілді. Төлемді асхана қабылдайды, ал GastronomIQ өтінімнің мәртебесін көрсетеді.</p>
+    </section>
+    <section id="screens" class="screens-section">
+      <div class="wrap">
+        <div class="section-head">
+          <div><p class="eyebrow">05 / Экрандар галереясы</p><h2>Телефон мен веб-кабинет</h2></div>
+          <p>Интерфейсті жақыннан көру үшін скриншотты басыңыз.</p>
+        </div>
+        <div class="gallery">
+        <a class="gallery-card gallery-mobile" href="assets/ios-orders.webp" data-shot="iPhone-дағы өтінім мәртебесі">
+          <span class="gallery-label"><strong>iPhone</strong><span>Өтінімдер ↗</span></span>
+          <img loading="lazy" src="assets/ios-orders.webp" alt="iPhone-дағы өтінім мәртебесі" width="667" height="1450" decoding="async">
+        </a>
+
+        <a class="gallery-card gallery-mobile" href="assets/android-menu.webp" data-shot="Android қолданбасындағы мектеп мәзірі">
+          <span class="gallery-label"><strong>Android</strong><span>Мәзір ↗</span></span>
+          <img loading="lazy" src="assets/android-menu.webp" alt="Android қолданбасындағы мектеп мәзірі" width="816" height="1450" decoding="async">
+        </a>
+
+        <a class="gallery-card gallery-mobile" href="assets/telegram-menu.webp" data-shot="Telegram ішіндегі ас мәзірі мен себет">
+          <span class="gallery-label"><strong>Telegram</strong><span>Mini App ↗</span></span>
+          <img loading="lazy" src="assets/telegram-menu.webp" alt="Telegram ішіндегі ас мәзірі мен себет" width="390" height="971" decoding="async">
+        </a>
+
+        <a class="gallery-card gallery-wide" href="assets/admin-dashboard.webp" data-shot="Мектептің веб-кабинеті">
+          <span class="gallery-label"><strong>Мектеп</strong><span>Басты бет ↗</span></span>
+          <img loading="lazy" src="assets/admin-dashboard.webp" alt="Мектептің веб-кабинеті" width="1365" height="920" decoding="async">
+        </a>
+
+        <a class="gallery-card gallery-wide" href="assets/admin-guardians.webp" data-shot="Оқушыға өкілді байланыстыру">
+          <span class="gallery-label"><strong>Келісімдер</strong><span>Өкілді қосу ↗</span></span>
+          <img loading="lazy" src="assets/admin-guardians.webp" alt="Оқушыға өкілді байланыстыру" width="1365" height="920" decoding="async">
+        </a>
+
+        <a class="gallery-card gallery-wide" href="assets/canteen-dish.webp" data-shot="Асхана мәзіріне тағам қосу">
+          <span class="gallery-label"><strong>Асхана</strong><span>Тағам қосу ↗</span></span>
+          <img loading="lazy" src="assets/canteen-dish.webp" alt="Асхана мәзіріне тағам қосу" width="1365" height="920" decoding="async">
+        </a></div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap footer-row">
+    <a class="brand" href="#top"><img src="assets/mark.svg" alt="" width="34" height="34">GastronomIQ</a>
+    <p>Мектептегі тамақтану жобасының таныстырылымы</p>
+    <a href="#top">Жоғары ↑</a>
+  </div></footer>
+  <dialog id="lightbox" aria-labelledby="lightbox-title">
+    <div class="dialog-bar"><h2 id="lightbox-title"></h2><form method="dialog"><button type="submit" aria-label="Скриншотты жабу">✕</button></form></div>
+    <img alt="">
+  </dialog>
+</body>
+</html>
